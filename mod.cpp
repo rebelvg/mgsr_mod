@@ -1,0 +1,14 @@
+name = "MGSR 0.35";
+picture = "mgsr.paa";
+actionName = "Website";
+action = "http://podkolpakom.net/";
+description = "MGSR: Arma 3";
+logo = "mgsr.paa";
+logoOver = "mgsr.paa";
+tooltip = "MGSR: Arma 3";
+tooltipOwned = "";
+overview = "Assets from Metal Gear Solid V Trailer Arma 3 Remake";
+author = "rebel / shlomo";
+overviewPicture = "mgsr.paa";
+overviewText = "MGSR: Arma 3";
+overviewFootnote = "";
