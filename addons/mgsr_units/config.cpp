@@ -24,7 +24,6 @@ class CfgPatches {
 };
 
 class CfgVehicles {
-
 	class Civilian_F;
 
 	class mgsr_civ_01 : Civilian_F {
@@ -73,6 +72,7 @@ class CfgVehicles {
 class CfgWeapons {
 		class InventoryItem_Base_F;
 		class ItemCore;
+		
 		class UniformItem: InventoryItem_Base_F
 		{
 			type = 801;
