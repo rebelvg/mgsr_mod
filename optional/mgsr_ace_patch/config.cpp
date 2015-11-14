@@ -57,7 +57,7 @@ class CfgFunctions
 		class mgsr_ace_patch
 		{
 			file = "mgsr_ace_patch\functions";
-			class init
+			class mgsrInit
 			{
 				postInit = 1;
 			};
