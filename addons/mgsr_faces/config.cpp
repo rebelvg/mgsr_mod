@@ -3,8 +3,8 @@ class CfgPatches
 	class mgsr_faces
 	{
 		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
+        weapons[] = {};
+		requiredVersion = 1;
 		requiredAddons[] = {"A3_Characters_F"};
 	};
 };

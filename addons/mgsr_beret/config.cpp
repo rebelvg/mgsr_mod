@@ -16,9 +16,9 @@ enum {
 
 class CfgPatches {
     class mgsr_beret {
-        units[] = {};
+		units[] = {};
         weapons[] = {};
-        requiredVersion = 0.1;
+        requiredVersion = 1;
         requiredAddons[] = {};
     };
 };
