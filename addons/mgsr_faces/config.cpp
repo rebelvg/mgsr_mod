@@ -23,7 +23,7 @@ class CfgFaces
 		
 		class mgsr_snakeface: WhiteHead_12
 		{
-			author = "rebel / shlomo";
+			author = "Rebel / Shlomo";
 			displayname = "MGSR: Snakeface";
 			texture = "\mgsr_faces\data\mgsr_snakeface.paa";
 			material = "\mgsr_faces\data\mgsr_snake.rvmat";
@@ -32,7 +32,7 @@ class CfgFaces
 		
 		class mgsr_skullface: WhiteHead_01
 		{
-			author = "rebel / shlomo";
+			author = "Rebel / Shlomo";
 			displayname = "MGSR: Skullface";
 			texture = "\mgsr_faces\data\mgsr_skullface.paa";
 			textureHL = "\mgsr_faces\data\mgsr_skullface_body.paa";
@@ -42,7 +42,7 @@ class CfgFaces
 		
 		class mgsr_snakeface_camo: WhiteHead_12
 		{
-			author = "rebel / shlomo";
+			author = "Rebel / Shlomo";
 			displayname = "MGSR: Snakeface Camo";
 			texture = "\mgsr_faces\data\mgsr_snakeface_camo.paa";
 			material = "\mgsr_faces\data\mgsr_snake_camo.rvmat";

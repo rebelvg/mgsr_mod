@@ -5,19 +5,20 @@ class StageTI
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
-emmisive[]={0,0,0,1};
-specular[]={0.081000082,0.081000015,0.091000006,0};
-specularPower=92.199997;
+emmisive[]={0,0,0,0};
+specular[]={0.03};
+specularPower=50;
+fresnel=(1.32,0.94)
 PixelShaderID="NormalMapSpecularDIMap";
 VertexShaderID="NormalMap";
 class Stage0
 {
-	texture="mgsr_headbag\data\mgsr_headbag_co_blk.paa";
+	texture="mgsr_eyepatch\data\mgsr_eyepatch.paa";
 	uvSource="tex";
 };
 class Stage1
 {
-	texture="mgsr_headbag\data\mgsr_headbag_nohq.paa";
+	texture="mgsr_eyepatch\data\mgsr_eyepatch_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -29,7 +30,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="mgsr_headbag\data\mgsr_headbag_smdi.paa";
+	texture="mgsr_eyepatch\data\mgsr_eyepatch_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

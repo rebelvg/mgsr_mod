@@ -28,7 +28,7 @@ class CfgWeapons {
 	class HeadgearItem;
 
 	class mgsr_headbag : ItemCore {
-		author="rebel / shlomo";
+		author="Rebel / Facel";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "MGSR: Headbag";
@@ -50,7 +50,7 @@ class CfgGlasses {
 	
 	class mgsr_headbag_goggles: None
     {
-		author="rebel / shlomo";
+		author="Rebel / Facel";
 		mass = 5;
         displayname = "MGSR: Headbag (goggles slot)";
         model = "\mgsr_headbag\mgsr_headbag.p3d";

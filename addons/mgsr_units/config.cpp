@@ -27,7 +27,7 @@ class CfgVehicles {
 	class Civilian_F;
 
 	class mgsr_civ_01 : Civilian_F {
-		author="rebel / shlomo";
+		author="Rebel / Shlomo";
 		_generalMacro = "mgsr_civ_01";
 		scope = 2;
 		displayName = "MGSR: Prisoner";
@@ -41,7 +41,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_civ_02 : Civilian_F {
-		author="rebel / shlomo";
+		author="Rebel / Shlomo";
 		_generalMacro = "mgsr_civ_02";
 		scope = 2;
 		displayName = "MGSR: Prisoner (Bloody Texture)";
@@ -55,7 +55,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_civ_03 : Civilian_F {
-		author="rebel / shlomo";
+		author="Rebel / Shlomo";
 		_generalMacro = "mgsr_civ_03";
 		scope = 2;
 		displayName = "MGSR: Prisoner (Bloody Stomach)";
@@ -84,10 +84,10 @@ class CfgWeapons {
 		};
 	
 	class mgsr_civ_01_uniform : Uniform_Base {
-		author="rebel / shlomo";
+		author="Rebel / Shlomo";
 		scope = 2;
 		displayName = "MGSR: Yellow Polo/Shorts";
-		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
+		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		
 		class ItemInfo : UniformItem {
@@ -99,10 +99,10 @@ class CfgWeapons {
 	};
 	
 	class mgsr_civ_02_uniform : Uniform_Base {
-		author="rebel / shlomo";
+		author="Rebel / Shlomo";
 		scope = 2;
 		displayName = "MGSR: Yellow Polo/Shorts with Blood";
-		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
+		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		
 		class ItemInfo : UniformItem {
@@ -114,10 +114,10 @@ class CfgWeapons {
 	};
 	
 	class mgsr_civ_03_uniform : Uniform_Base {
-		author="rebel / shlomo";
+		author="Rebel / Shlomo";
 		scope = 2;
 		displayName = "MGSR: Yellow Polo/Shorts with Bloody Stomach";
-		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
+		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		
 		class ItemInfo : UniformItem {

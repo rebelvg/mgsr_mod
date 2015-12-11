@@ -28,7 +28,7 @@ class CfgWeapons {
     class HeadgearItem;
     
     class mgsr_beret : ItemCore {
-		author="rebel / shlomo";
+		author="Rebel / Shlomo";
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "MGSR: Diamond Dogs Beret";
