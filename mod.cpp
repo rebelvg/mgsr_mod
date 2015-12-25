@@ -1,4 +1,4 @@
-name = "MGSR 0.37";
+name = "MGSR";
 picture = "mgsr.paa";
 actionName = "Website";
 action = "http://podkolpakom.net/";
