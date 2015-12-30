@@ -27,7 +27,7 @@ class CfgVehicles {
 	class Civilian_F;
 
 	class mgsr_civ_01 : Civilian_F {
-		author="Rebel / Facel";
+		author="Rebel / Facel / Shlomo";
 		_generalMacro = "mgsr_civ_01";
 		scope = 2;
 		displayName = "MGSR: Prisoner";
@@ -55,7 +55,7 @@ class CfgWeapons {
 		};
 	
 	class mgsr_civ_01_uniform : Uniform_Base {
-		author="Rebel / Facel";
+		author="Rebel / Facel / Shlomo";
 		scope = 2;
 		displayName = "MGSR: Prisoner Robe";
 		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
