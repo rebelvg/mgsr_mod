@@ -16,10 +16,10 @@ enum {
 
 class CfgPatches {
 	class mgsr_units {
-		units[] = {};
-        weapons[] = {};
+		units[] = {"mgsr_civ_01"};
+        weapons[] = {"mgsr_civ_01_uniform"};
 		requiredVersion = 1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Characters_F", "A3_Data_F"};
 	};
 };
 
@@ -27,45 +27,16 @@ class CfgVehicles {
 	class Civilian_F;
 
 	class mgsr_civ_01 : Civilian_F {
-		author="Rebel / Shlomo";
+		author="Rebel / Facel";
 		_generalMacro = "mgsr_civ_01";
 		scope = 2;
 		displayName = "MGSR: Prisoner";
 		nakedUniform = "U_BasicBody";
 		uniformClass = "mgsr_civ_01_uniform";
-		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_civ_01.paa"};
+		model = "\mgsr_units\mgsr_robe.p3d";
 
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch"};
-	};
-	
-	class mgsr_civ_02 : Civilian_F {
-		author="Rebel / Shlomo";
-		_generalMacro = "mgsr_civ_02";
-		scope = 2;
-		displayName = "MGSR: Prisoner (Bloody Texture)";
-		nakedUniform = "U_BasicBody";
-		uniformClass = "mgsr_civ_02_uniform";
-		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_civ_02.paa"};
-
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch"};
-	};
-	
-	class mgsr_civ_03 : Civilian_F {
-		author="Rebel / Shlomo";
-		_generalMacro = "mgsr_civ_03";
-		scope = 2;
-		displayName = "MGSR: Prisoner (Bloody Stomach)";
-		nakedUniform = "U_BasicBody";
-		uniformClass = "mgsr_civ_03_uniform";
-		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_civ_03.paa"};
-
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch"};
+		linkedItems[] = {};
+		respawnLinkedItems[] = {};
 	};
 };
 
@@ -84,45 +55,14 @@ class CfgWeapons {
 		};
 	
 	class mgsr_civ_01_uniform : Uniform_Base {
-		author="Rebel / Shlomo";
+		author="Rebel / Facel";
 		scope = 2;
-		displayName = "MGSR: Yellow Polo/Shorts";
+		displayName = "MGSR: Prisoner Robe";
 		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_civ_01";
-			containerClass = "Supply20";
-			mass = 40;
-		};
-	};
-	
-	class mgsr_civ_02_uniform : Uniform_Base {
-		author="Rebel / Shlomo";
-		scope = 2;
-		displayName = "MGSR: Yellow Polo/Shorts with Blood";
-		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "mgsr_civ_02";
-			containerClass = "Supply20";
-			mass = 40;
-		};
-	};
-	
-	class mgsr_civ_03_uniform : Uniform_Base {
-		author="Rebel / Shlomo";
-		scope = 2;
-		displayName = "MGSR: Yellow Polo/Shorts with Bloody Stomach";
-		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "mgsr_civ_03";
 			containerClass = "Supply20";
 			mass = 40;
 		};
