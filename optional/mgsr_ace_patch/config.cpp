@@ -3,30 +3,30 @@ class CfgPatches
 	class mgsr_ace_patch
 	{
 		units[] = {};
-        weapons[] = {};
+		weapons[] = {};
 		requiredVersion = 1;
 		requiredAddons[] = {"ace_common", "ace_goggles", "mgsr_headbag", "mgsr_eyepatch"};
 	};
 };
 
 class CfgGlasses {
-    class None;
+	class None;
 	
 	class mgsr_eyepatch_goggles: None
-    {
+	{
 		ACE_Overlay = "\mgsr_ace_patch\eyepatch_overlay.paa";
-        ACE_OverlayCracked = "\mgsr_ace_patch\eyepatch_overlayCracked.paa";
-        ACE_Resistance = 1;
-        ACE_Protection = 1;
-    };
+		ACE_OverlayCracked = "\mgsr_ace_patch\eyepatch_overlayCracked.paa";
+		ACE_Resistance = 1;
+		ACE_Protection = 1;
+	};
 	
 	class mgsr_headbag_goggles: None
-    {
+	{
 		ACE_Overlay = "\mgsr_ace_patch\headbag_overlay.paa";
-        ACE_OverlayCracked = "\mgsr_ace_patch\headbag_overlayCracked.paa";
-        ACE_Resistance = 1;
-        ACE_Protection = 1;
-    };	
+		ACE_OverlayCracked = "\mgsr_ace_patch\headbag_overlayCracked.paa";
+		ACE_Resistance = 1;
+		ACE_Protection = 1;
+	};	
 };
 
 class CfgVehicles

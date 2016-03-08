@@ -17,7 +17,7 @@ enum {
 class CfgPatches {
 	class mgsr_units {
 		units[] = {"mgsr_civ_01"};
-        weapons[] = {"mgsr_civ_01_uniform"};
+		weapons[] = {"mgsr_civ_01_uniform"};
 		requiredVersion = 1;
 		requiredAddons[] = {"A3_Characters_F", "A3_Data_F"};
 	};
@@ -41,18 +41,18 @@ class CfgVehicles {
 };
 
 class CfgWeapons {
-		class InventoryItem_Base_F;
-		class ItemCore;
-		
-		class UniformItem: InventoryItem_Base_F
-		{
-			type = 801;
-		};
-		class Uniform_Base: ItemCore
-		{
-			scope = 0;
-			allowedSlots[] = {901};
-		};
+	class InventoryItem_Base_F;
+	class ItemCore;
+	
+	class UniformItem: InventoryItem_Base_F
+	{
+		type = 801;
+	};
+	class Uniform_Base: ItemCore
+	{
+		scope = 0;
+		allowedSlots[] = {901};
+	};
 	
 	class mgsr_civ_01_uniform : Uniform_Base {
 		author="Rebel / Facel / Shlomo";

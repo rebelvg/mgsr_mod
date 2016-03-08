@@ -17,7 +17,7 @@ enum {
 class CfgPatches {
 	class mgsr_eyepatch {
 		units[] = {};
-        weapons[] = {};
+		weapons[] = {};
 		requiredVersion = 1;
 		requiredAddons[] = {};
 	};
@@ -46,15 +46,15 @@ class CfgWeapons {
 };
 
 class CfgGlasses {
-    class None;
+	class None;
 	
 	class mgsr_eyepatch_goggles: None
-    {
+	{
 		author="Rebel / Facel";
 		mass = 2;
-        displayname = "MGSR: Eyepatch";
-        model = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
+		displayname = "MGSR: Eyepatch";
+		model = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
 		picture = "\mgsr_eyepatch\UI\gear_mgsr_eyepatch_x_ca";
 		identityTypes[]={};
-    };
+	};
 };

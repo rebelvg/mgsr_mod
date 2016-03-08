@@ -17,7 +17,7 @@ enum {
 class CfgPatches {
 	class mgsr_headbag {
 		units[] = {};
-        weapons[] = {};
+		weapons[] = {};
 		requiredVersion = 1;
 		requiredAddons[] = {};
 	};
@@ -46,15 +46,15 @@ class CfgWeapons {
 };
 
 class CfgGlasses {
-    class None;
+	class None;
 	
 	class mgsr_headbag_goggles: None
-    {
+	{
 		author="Rebel / Facel";
 		mass = 5;
-        displayname = "MGSR: Headbag";
-        model = "\mgsr_headbag\mgsr_headbag.p3d";
+		displayname = "MGSR: Headbag";
+		model = "\mgsr_headbag\mgsr_headbag.p3d";
 		picture = "\mgsr_headbag\UI\gear_mgsr_headbag_x_ca";
 		identityTypes[]={};
-    };	
+	};	
 };
