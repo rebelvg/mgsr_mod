@@ -1,19 +1,3 @@
-enum {
-	DESTRUCTENGINE = 2,
-	DESTRUCTDEFAULT = 6,
-	DESTRUCTWRECK = 7,
-	DESTRUCTTREE = 3,
-	DESTRUCTTENT = 4,
-	STABILIZEDINAXISX = 1,
-	STABILIZEDINAXESXYZ = 4,
-	STABILIZEDINAXISY = 2,
-	STABILIZEDINAXESBOTH = 3,
-	DESTRUCTNO = 0,
-	STABILIZEDINAXESNONE = 0,
-	DESTRUCTMAN = 5,
-	DESTRUCTBUILDING = 1,
-};
-
 class CfgPatches {
 	class mgsr_units {
 		units[] = {"mgsr_civ_01"};
@@ -24,9 +8,9 @@ class CfgPatches {
 };
 
 class CfgVehicles {
-	class Civilian_F;
+	class C_man_1;
 
-	class mgsr_civ_01 : Civilian_F {
+	class mgsr_civ_01 : C_man_1 {
 		author="Rebel / Facel / Shlomo";
 		_generalMacro = "mgsr_civ_01";
 		scope = 2;
@@ -34,31 +18,32 @@ class CfgVehicles {
 		nakedUniform = "U_BasicBody";
 		uniformClass = "mgsr_civ_01_uniform";
 		model = "\mgsr_units\mgsr_robe.p3d";
-
+		
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa"};
+		
+		class EventHandlers {};
+		headgearList[] = {};
+		
+		identityTypes[] = {"LanguageGRE_F", "Head_Greek", "NoGlasses"};
+		
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
 	};
 };
 
 class CfgWeapons {
-	class InventoryItem_Base_F;
-	class ItemCore;
+	class U_C_Poloshirt_blue;
+	class UniformItem;
 	
-	class UniformItem: InventoryItem_Base_F
-	{
-		type = 801;
-	};
-	class Uniform_Base: ItemCore
-	{
-		scope = 0;
-		allowedSlots[] = {901};
-	};
-	
-	class mgsr_civ_01_uniform : Uniform_Base {
+	class mgsr_civ_01_uniform : U_C_Poloshirt_blue {
 		author="Rebel / Facel / Shlomo";
 		scope = 2;
 		displayName = "MGSR: Prisoner Robe";
 		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
+		
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";

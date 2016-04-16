@@ -1,11 +1,9 @@
-class CfgPatches
-{
-	class mgsr_faces
-	{
+class CfgPatches {
+	class mgsr_faces {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1;
-		requiredAddons[] = {"A3_Characters_F"};
+		requiredAddons[] = {"A3_Characters_F", "A3_Data_F"};
 	};
 };
 
