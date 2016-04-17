@@ -1,7 +1,5 @@
-class CfgPatches
-{
-	class mgsr_ace_patch
-	{
+class CfgPatches {
+	class mgsr_ace_patch {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1;
@@ -29,8 +27,7 @@ class CfgGlasses {
 	};	
 };
 
-class CfgVehicles
-{
+class CfgVehicles {
 	class Man;
 	class CAManBase: Man
 	{
@@ -50,8 +47,7 @@ class CfgVehicles
 	};
 };
 
-class CfgFunctions
-{
+class CfgFunctions {
 	class mgsr_ace_patch
 	{
 		class mgsr_ace_patch

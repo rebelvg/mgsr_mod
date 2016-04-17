@@ -11,7 +11,7 @@ class CfgWeapons {
 	class ItemCore;
 	class HeadgearItem;
 
-	class mgsr_headbag : ItemCore {
+	class mgsr_headbag: ItemCore {
 		author="Rebel / Facel";
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -19,7 +19,7 @@ class CfgWeapons {
 		model = "\mgsr_headbag\mgsr_headbag.p3d";
 		picture = "\mgsr_headbag\UI\gear_mgsr_headbag_x_ca";
 
-		class ItemInfo : HeadgearItem {
+		class ItemInfo: HeadgearItem {
 			mass = 5;
 			uniformModel = "\mgsr_headbag\mgsr_headbag.p3d";
 			modelSides[] = {3, 1};
