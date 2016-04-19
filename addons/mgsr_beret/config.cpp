@@ -29,7 +29,6 @@ class CfgWeapons {
 			modelSides[] = {3, 1};
 			armor = 3 * 0.5;
 			passThrough = 0.8;
-			hiddenSelections[] = {"camo"};
 		};
 	};
 };
