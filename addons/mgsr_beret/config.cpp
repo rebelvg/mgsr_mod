@@ -29,6 +29,10 @@ class CfgWeapons {
 			modelSides[] = {3, 1};
 			armor = 3 * 0.5;
 			passThrough = 0.8;
+			
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\mgsr_beret\data\beret.paa"};
+			hiddenSelectionsMaterials[] = {"\mgsr_beret\data\beret.rvmat"};
 		};
 	};
 };
