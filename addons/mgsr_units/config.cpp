@@ -1,7 +1,7 @@
 class CfgPatches {
 	class mgsr_units {
-		units[] = {"mgsr_civ_01"};
-		weapons[] = {"mgsr_civ_01_uniform"};
+		units[] = {"mgsr_civ_01", "mgsr_civ_02"};
+		weapons[] = {"mgsr_civ_01_uniform", "mgsr_robe_dirty"};
 		requiredVersion = 1;
 		requiredAddons[] = {"A3_Characters_F", "A3_Data_F"};
 	};
@@ -25,8 +25,19 @@ class CfgVehicles {
 		class EventHandlers {};
 		headgearList[] = {};
 		
-		identityTypes[] = {"LanguageGRE_F", "Head_Greek", "NoGlasses"};
-		
+		identityTypes[] = {"LanguageENG_F", "Head_Euro", "NoGlasses"};
+
+		class Wounds
+		{
+			tex[] = {};
+			mat[] =
+			{
+				"mgsr_units\data\mgsr_robe.rvmat",
+				"mgsr_units\data\w1_mgsr_robe.rvmat",
+				"mgsr_units\data\w2_mgsr_robe.rvmat"
+			};
+		};
+
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
 	};
