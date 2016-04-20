@@ -82,6 +82,16 @@ class CfgVehicles {
 		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa", "\mgsr_units\ins\8.paa", "\mgsr_units\ins\2.paa", "\mgsr_units\ins\1.paa", "\mgsr_units\ins\1.paa", "\mgsr_units\ins\3.paa"};
 	};
+	
+	class mgsr_civ_03: mgsr_civ_01 {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_civ_03";
+		displayName = "MGSR: Prisoner (Muddy Uniform)";
+		uniformClass = "mgsr_robe_muddy";
+		
+		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa", "\mgsr_units\ins\1.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\3.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\6.paa"};
+	};
 };
 
 class CfgWeapons {
@@ -92,7 +102,10 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Prisoner Robe";
-		picture = "\A3\characters_f\data\UI\icon_U_Citizen_ca.paa";
+		picture = "\mgsr_units\UI\gear_mgsr_uniform_x_ca";
+		
+		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -106,9 +119,27 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		displayName = "MGSR: Prisoner Robe Dirty";
 		
+		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa", "\mgsr_units\ins\8.paa", "\mgsr_units\ins\2.paa", "\mgsr_units\ins\1.paa", "\mgsr_units\ins\1.paa", "\mgsr_units\ins\3.paa"};
+		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_civ_02";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+	
+	class mgsr_robe_muddy: mgsr_civ_01_uniform {
+		author="Rebel / Facel";
+		displayName = "MGSR: Prisoner Robe Muddy";
+		
+		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa", "\mgsr_units\ins\1.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\3.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\6.paa"};
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_civ_03";
 			containerClass = "Supply20";
 			mass = 40;
 		};
