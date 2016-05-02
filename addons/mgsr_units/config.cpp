@@ -1,7 +1,7 @@
 class CfgPatches {
 	class mgsr_units {
-		units[] = {"mgsr_civ_01", "mgsr_civ_02"};
-		weapons[] = {"mgsr_civ_01_uniform", "mgsr_robe_dirty"};
+		units[] = {"mgsr_civ_01", "mgsr_civ_02", "mgsr_civ_03"};
+		weapons[] = {"mgsr_civ_01_uniform", "mgsr_robe_dirty", "mgsr_robe_muddy"};
 		requiredVersion = 1;
 		requiredAddons[] = {"A3_Characters_F", "A3_Data_F"};
 	};
