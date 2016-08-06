@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1;
-		requiredAddons[] = {"ace_common", "ace_goggles", "mgsr_headbag", "mgsr_eyepatch"};
+		requiredAddons[] = {"ace_interact_menu", "ace_goggles", "mgsr_headbag", "mgsr_eyepatch"};
 	};
 };
 
