@@ -952,9 +952,9 @@ class CfgVehicles {
 		
 		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa", "\mgsr_units\ins\1.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\3.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\6.paa"};
+		
+		editorPreview = "\mgsr_units\UI\mgsr_civ_03.jpg";
 	};
-	
-	editorPreview = "\mgsr_units\UI\mgsr_civ_03.jpg";
 };
 
 class CfgWeapons {
