@@ -931,7 +931,7 @@ class CfgFunctions {
 		class mgsr_headbag
 		{
 			file = "mgsr_headbag\functions";
-			class mgsrInit
+			class putHeadbagOn
 			{
 				postInit = 1;
 			};
