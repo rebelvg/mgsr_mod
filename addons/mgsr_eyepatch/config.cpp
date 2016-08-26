@@ -897,5 +897,10 @@ class CfgGlasses {
 		model = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
 		picture = "\mgsr_eyepatch\UI\gear_mgsr_eyepatch_x_ca";
 		identityTypes[]={};
+		
+		ACE_Overlay = "\mgsr_eyepatch\eyepatch_overlay.paa";
+		ACE_OverlayCracked = "\mgsr_eyepatch\eyepatch_overlayCracked.paa";
+		ACE_Resistance = 1;
+		ACE_Protection = 1;
 	};
 };
