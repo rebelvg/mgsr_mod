@@ -884,8 +884,6 @@ class CfgVehicles {
 	class mgsr_poncho_dry: mgsr_poncho_wet {
 		displayName = "MGSR Poncho (Dry)";
 		
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\mgsr_poncho\data\mgsr_poncho.paa"};
 		hiddenSelectionsMaterials[] = {"\mgsr_poncho\data\mgsr_poncho_dry.rvmat"};
 	};
 };
