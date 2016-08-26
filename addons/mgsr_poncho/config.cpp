@@ -882,6 +882,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_poncho_dry: mgsr_poncho_wet {
+		author="Rebel / Facel";
 		displayName = "MGSR: Poncho (Dry)";
 		
 		hiddenSelectionsMaterials[] = {"\mgsr_poncho\data\mgsr_poncho_dry.rvmat"};
