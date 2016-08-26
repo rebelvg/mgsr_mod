@@ -1,7 +1,7 @@
 class CfgPatches {
 	class mgsr_units {
-		units[] = {"mgsr_civ_01", "mgsr_civ_02", "mgsr_civ_03"};
-		weapons[] = {"mgsr_civ_01_uniform", "mgsr_robe_dirty", "mgsr_robe_muddy"};
+		units[] = {"mgsr_prisoner", "mgsr_prisoner_dirty", "mgsr_prisoner_muddy", "mgsr_prisoner_blue", "mgsr_prisoner_blue_dirty", "mgsr_prisoner_blue_muddy", "mgsr_prisoner_olive", "mgsr_prisoner_olive_dirty", "mgsr_prisoner_olive_muddy"};
+		weapons[] = {"mgsr_robe", "mgsr_robe_dirty", "mgsr_robe_muddy", "mgsr_robe_blue", "mgsr_robe_blue_dirty", "mgsr_robe_blue_muddy", "mgsr_robe_olive", "mgsr_robe_olive_dirty", "mgsr_robe_olive_muddy"};
 		requiredVersion = 1;
 		requiredAddons[] = {
 			"a3_3den",
@@ -867,13 +867,13 @@ class CfgPatches {
 class CfgVehicles {
 	class C_man_1;
 
-	class mgsr_civ_01: C_man_1 {
+	class mgsr_prisoner: C_man_1 {
 		author="Rebel / Facel";
-		_generalMacro = "mgsr_civ_01";
+		_generalMacro = "mgsr_prisoner";
 		scope = 2;
-		displayName = "MGSR: Prisoner";
+		displayName = "MGSR: Prisoner (Orange)";
 		nakedUniform = "U_BasicBody";
-		uniformClass = "mgsr_civ_01_uniform";
+		uniformClass = "mgsr_robe";
 		model = "\mgsr_units\mgsr_robe.p3d";
 		modelSides[] = {0, 1, 2, 3};
 		
@@ -929,27 +929,97 @@ class CfgVehicles {
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
 		
-		editorPreview = "\mgsr_units\UI\mgsr_civ_01.jpg";
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner.jpg";
 	};
 	
-	class mgsr_civ_02: mgsr_civ_01 {
-		_generalMacro = "mgsr_civ_02";
-		displayName = "MGSR: Prisoner (Dirty Uniform)";
+	class mgsr_prisoner_dirty: mgsr_prisoner {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_dirty";
+		displayName = "MGSR: Prisoner (Orange Dirty)";
 		uniformClass = "mgsr_robe_dirty";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 		
-		editorPreview = "\mgsr_units\UI\mgsr_civ_02.jpg";
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_dirty.jpg";
 	};
 	
-	class mgsr_civ_03: mgsr_civ_01 {
-		_generalMacro = "mgsr_civ_03";
-		displayName = "MGSR: Prisoner (Muddy Uniform)";
+	class mgsr_prisoner_muddy: mgsr_prisoner {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_muddy";
+		displayName = "MGSR: Prisoner (Orange Muddy)";
 		uniformClass = "mgsr_robe_muddy";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 		
-		editorPreview = "\mgsr_units\UI\mgsr_civ_03.jpg";
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_muddy.jpg";
+	};
+	
+	class mgsr_prisoner_blue: mgsr_prisoner {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_blue";
+		displayName = "MGSR: Prisoner (Blue)";
+		uniformClass = "mgsr_robe_blue";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsMaterials[] = {"\mgsr_units\data\blue\mgsr_robe.rvmat"};
+		
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_blue.jpg";
+	};
+	
+	class mgsr_prisoner_blue_dirty: mgsr_prisoner_blue {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_blue_dirty";
+		displayName = "MGSR: Prisoner (Blue Dirty)";
+		uniformClass = "mgsr_robe_blue_dirty";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_blue_dirty.jpg";
+	};
+	
+	class mgsr_prisoner_blue_muddy: mgsr_prisoner_blue {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_blue_muddy";
+		displayName = "MGSR: Prisoner (Blue Muddy)";
+		uniformClass = "mgsr_robe_blue_muddy";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_blue_muddy.jpg";
+	};
+	
+	class mgsr_prisoner_olive: mgsr_prisoner {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_olive";
+		displayName = "MGSR: Prisoner (Olive)";
+		uniformClass = "mgsr_robe_olive";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsMaterials[] = {"\mgsr_units\data\olive\mgsr_robe.rvmat"};
+		
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive.jpg";
+	};
+	
+	class mgsr_prisoner_olive_dirty: mgsr_prisoner_olive {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_olive_dirty";
+		displayName = "MGSR: Prisoner (Olive Dirty)";
+		uniformClass = "mgsr_robe_olive_dirty";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive_dirty.jpg";
+	};
+	
+	class mgsr_prisoner_olive_muddy: mgsr_prisoner_olive {
+		author="Rebel / Facel";
+		_generalMacro = "mgsr_prisoner_olive_muddy";
+		displayName = "MGSR: Prisoner (Olive Muddy)";
+		uniformClass = "mgsr_robe_olive_muddy";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive_muddy.jpg";
 	};
 };
 
@@ -957,44 +1027,138 @@ class CfgWeapons {
 	class U_C_Poloshirt_blue;
 	class UniformItem;
 	
-	class mgsr_civ_01_uniform: U_C_Poloshirt_blue {
+	class mgsr_robe: U_C_Poloshirt_blue {
 		author="Rebel / Facel";
 		scope = 2;
-		displayName = "MGSR: Prisoner Robe";
-		picture = "\mgsr_units\UI\gear_mgsr_uniform_x_ca";
+		displayName = "MGSR: Orange Robe";
+		picture = "\mgsr_units\UI\gear_mgsr_robe_x_ca";
 		
 		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "mgsr_civ_01";
+			uniformClass = "mgsr_prisoner";
 			containerClass = "Supply20";
 			mass = 40;
 		};
 	};
 	
-	class mgsr_robe_dirty: mgsr_civ_01_uniform {
-		displayName = "MGSR: Prisoner Robe Dirty";
+	class mgsr_robe_dirty: mgsr_robe {
+		author="Rebel / Facel";
+		displayName = "MGSR: Orange Robe Dirty";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "mgsr_civ_02";
+			uniformClass = "mgsr_prisoner_dirty";
 			containerClass = "Supply20";
 			mass = 40;
 		};
 	};
 	
-	class mgsr_robe_muddy: mgsr_civ_01_uniform {
-		displayName = "MGSR: Prisoner Robe Muddy";
+	class mgsr_robe_muddy: mgsr_robe {
+		author="Rebel / Facel";
+		displayName = "MGSR: Orange Robe Muddy";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "mgsr_civ_03";
+			uniformClass = "mgsr_prisoner_muddy";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+	
+	class mgsr_robe_blue: mgsr_robe {
+		author="Rebel / Facel";
+		scope = 2;
+		displayName = "MGSR: Blue Robe";
+		picture = "\mgsr_units\UI\blue\gear_mgsr_robe_x_ca";
+		
+		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsMaterials[] = {"\mgsr_units\data\blue\mgsr_robe.rvmat"};
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_prisoner_blue";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+	
+	class mgsr_robe_blue_dirty: mgsr_robe_blue {
+		author="Rebel / Facel";
+		displayName = "MGSR: Blue Robe Dirty";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_prisoner_blue_dirty";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+	
+	class mgsr_robe_blue_muddy: mgsr_robe_blue {
+		author="Rebel / Facel";
+		displayName = "MGSR: Blue Robe Muddy";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_prisoner_blue_muddy";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+	
+	class mgsr_robe_olive: mgsr_robe {
+		author="Rebel / Facel";
+		scope = 2;
+		displayName = "MGSR: Olive Robe";
+		picture = "\mgsr_units\UI\olive\gear_mgsr_robe_x_ca";
+		
+		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsMaterials[] = {"\mgsr_units\data\olive\mgsr_robe.rvmat"};
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_prisoner_olive";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+	
+	class mgsr_robe_olive_dirty: mgsr_robe_olive {
+		author="Rebel / Facel";
+		displayName = "MGSR: Olive Robe Dirty";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_prisoner_olive_dirty";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+	
+	class mgsr_robe_olive_muddy: mgsr_robe_olive {
+		author="Rebel / Facel";
+		displayName = "MGSR: Olive Robe Muddy";
+		
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_prisoner_olive_muddy";
 			containerClass = "Supply20";
 			mass = 40;
 		};

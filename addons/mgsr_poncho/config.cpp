@@ -870,7 +870,7 @@ class CfgVehicles {
 	class mgsr_poncho_wet: Bag_Base {
 		author="Rebel / Facel";
 		scope = 2;
-		displayName = "MGSR Poncho (Wet)";
+		displayName = "MGSR: Poncho (Wet)";
 		model = "\mgsr_poncho\mgsr_poncho.p3d";
 		picture = "\mgsr_poncho\UI\gear_mgsr_poncho_x_ca";
 		maximumLoad = 60;
@@ -882,7 +882,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_poncho_dry: mgsr_poncho_wet {
-		displayName = "MGSR Poncho (Dry)";
+		displayName = "MGSR: Poncho (Dry)";
 		
 		hiddenSelectionsMaterials[] = {"\mgsr_poncho\data\mgsr_poncho_dry.rvmat"};
 	};
