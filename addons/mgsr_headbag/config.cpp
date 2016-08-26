@@ -916,7 +916,7 @@ class CfgVehicles {
 				{
 					displayName = "Put Headbag On";
 					condition = "('mgsr_headbag' in items _player || 'mgsr_headbag_goggles' in items _player) && _target getVariable ['ace_captives_isSurrendering', false] || ('mgsr_headbag' in items _player || 'mgsr_headbag_goggles' in items _player) && _target getVariable ['ace_captives_isHandcuffed', false] and (alive _target)";
-					statement = "[_target, _player] spawn mgsr_fnc_putHeadbagOn";
+					statement = "[_target, _player] spawn mgsr_headbag_fnc_putHeadbagOn";
 					showDisabled = 0;
 					icon = "mgsr_headbag\headbag_icon.paa";
 				};
