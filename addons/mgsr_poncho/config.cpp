@@ -874,7 +874,7 @@ class CfgVehicles {
 		model = "\mgsr_poncho\mgsr_poncho.p3d";
 		picture = "\mgsr_poncho\UI\gear_mgsr_poncho_x_ca";
 		maximumLoad = 60;
-		mass = 50;
+		mass = 30;
 		
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_poncho\data\mgsr_poncho.paa"};

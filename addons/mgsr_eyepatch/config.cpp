@@ -871,7 +871,6 @@ class CfgWeapons {
 	class mgsr_eyepatch: ItemCore {
 		author="Rebel / Facel";
 		scope = 2;
-		weaponPoolAvailable = 1;
 		displayName = "MGSR: Eyepatch";
 		model = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
 		picture = "\mgsr_eyepatch\UI\gear_mgsr_eyepatch_x_ca";
@@ -880,7 +879,7 @@ class CfgWeapons {
 			mass = 2;
 			uniformModel = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
 			modelSides[] = {3, 1};
-			armor = 3 * 0.5;
+			armor = 1.5;
 			passThrough = 0.8;
 		};
 	};
