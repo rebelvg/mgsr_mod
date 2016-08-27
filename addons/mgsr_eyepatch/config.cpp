@@ -1,10 +1,10 @@
 #include "CfgPatches.hpp"
 
 class CfgWeapons {
-	class ItemCore;
+	class HelmetBase;
 	class HeadgearItem;
 	
-	class mgsr_eyepatch: ItemCore {
+	class mgsr_eyepatch: HelmetBase {
 		author="Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Eyepatch";
@@ -12,11 +12,10 @@ class CfgWeapons {
 		picture = "\mgsr_eyepatch\UI\gear_mgsr_eyepatch_x_ca";
 		
 		class ItemInfo: HeadgearItem {
+			allowedSlots[] = {801, 901, 701, 605};
 			mass = 2;
 			uniformModel = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
-			modelSides[] = {3, 1};
-			armor = 1.5;
-			passThrough = 0.8;
+			modelSides[] = {6};
 		};
 	};
 };

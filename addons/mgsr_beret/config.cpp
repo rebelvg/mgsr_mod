@@ -2,7 +2,6 @@
 
 class CfgWeapons {
 	class H_Beret_02;
-	class HeadgearItem;
 	
 	class mgsr_beret: H_Beret_02 {
 		author="Rebel / Shlomo";
