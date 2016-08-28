@@ -10,5 +10,5 @@ Threads
 https://forums.bistudio.com/topic/177253-mgsr-mod-metal-gear-solid-v-trailer-arma-3-remake/
 
 Downloads
-http://steamcommunity.com/sharedfiles/filedetails/?id=588179142
 https://github.com/rebelvg/mgsr_mod/releases
+http://steamcommunity.com/sharedfiles/filedetails/?id=588179142
