@@ -1,5 +1,5 @@
 name = "MGSR";
-picture = "mgsr_mod.paa";
+picture = "mod.paa";
 actionName = "Website";
 action = "https://github.com/rebelvg";
 overview = "Assets from Metal Gear Solid V Trailer Arma 3 Remake.";
