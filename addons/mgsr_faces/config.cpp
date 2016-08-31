@@ -1,7 +1,6 @@
 #include "CfgPatches.hpp"
 
-class CfgFaces
-{
+class CfgFaces {
 	class Default
 	{
 		class Custom;
