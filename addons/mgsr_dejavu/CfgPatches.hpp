@@ -1,7 +1,7 @@
 class CfgPatches {
 	class mgsr_dejavu {
-		units[] = {};
-		weapons[] = {};
+		units[] = {"mgsr_solid_snake_ps1"};
+		weapons[] = {"mgsr_solid_suit_ps1"};
 		requiredVersion = 1;
 		requiredAddons[] = {
 			"a3_3den",

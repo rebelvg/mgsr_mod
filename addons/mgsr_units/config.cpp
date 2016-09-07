@@ -35,6 +35,14 @@ class CfgVehicles {
 				"mgsr_units\data\mgsr_robe.rvmat",
 				"mgsr_units\data\w1_mgsr_robe.rvmat",
 				"mgsr_units\data\w2_mgsr_robe.rvmat",
+				
+				"mgsr_units\data\blue\mgsr_robe.rvmat",
+				"mgsr_units\data\blue\w1_mgsr_robe.rvmat",
+				"mgsr_units\data\blue\w2_mgsr_robe.rvmat",
+				
+				"mgsr_units\data\olive\mgsr_robe.rvmat",
+				"mgsr_units\data\olive\w1_mgsr_robe.rvmat",
+				"mgsr_units\data\olive\w2_mgsr_robe.rvmat",
 
 				"A3\Characters_F\Common\Data\basicbody.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
@@ -94,10 +102,10 @@ class CfgVehicles {
 		author="Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_blue";
 		displayName = "MGSR: Prisoner (Blue)";
+		model = "\mgsr_units\mgsr_robe_blue.p3d";
 		uniformClass = "mgsr_robe_blue";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
-		hiddenSelectionsMaterials[] = {"\mgsr_units\data\blue\mgsr_robe.rvmat"};
 		
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_blue.jpg";
 	};
@@ -128,10 +136,10 @@ class CfgVehicles {
 		author="Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_olive";
 		displayName = "MGSR: Prisoner (Olive)";
+		model = "\mgsr_units\mgsr_robe_olive.p3d";
 		uniformClass = "mgsr_robe_olive";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
-		hiddenSelectionsMaterials[] = {"\mgsr_units\data\olive\mgsr_robe.rvmat"};
 		
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive.jpg";
 	};
@@ -169,8 +177,8 @@ class CfgWeapons {
 		displayName = "MGSR: Orange Robe";
 		picture = "\mgsr_units\UI\gear_mgsr_robe_x_ca";
 		
-		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -184,7 +192,7 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		displayName = "MGSR: Orange Robe Dirty";
 		
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -198,7 +206,7 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		displayName = "MGSR: Orange Robe Muddy";
 		
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -214,9 +222,8 @@ class CfgWeapons {
 		displayName = "MGSR: Blue Robe";
 		picture = "\mgsr_units\UI\blue\gear_mgsr_robe_x_ca";
 		
-		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
-		hiddenSelectionsMaterials[] = {"\mgsr_units\data\blue\mgsr_robe.rvmat"};
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -230,7 +237,7 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		displayName = "MGSR: Blue Robe Dirty";
 		
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_dirty.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -244,7 +251,7 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		displayName = "MGSR: Blue Robe Muddy";
 		
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_muddy.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -260,9 +267,8 @@ class CfgWeapons {
 		displayName = "MGSR: Olive Robe";
 		picture = "\mgsr_units\UI\olive\gear_mgsr_robe_x_ca";
 		
-		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
-		hiddenSelectionsMaterials[] = {"\mgsr_units\data\olive\mgsr_robe.rvmat"};
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -276,7 +282,7 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		displayName = "MGSR: Olive Robe Dirty";
 		
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_dirty.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_dirty.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
@@ -290,7 +296,7 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		displayName = "MGSR: Olive Robe Muddy";
 		
-		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_muddy.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_muddy.paa"};
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
