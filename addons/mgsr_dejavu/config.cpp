@@ -22,6 +22,8 @@ class CfgVehicles {
 
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
+		
+		editorPreview = "\mgsr_dejavu\eden\mgsr_solid_snake_ps1.jpg";
 	};
 };
 
