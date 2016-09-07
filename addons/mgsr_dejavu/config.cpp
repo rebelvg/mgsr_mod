@@ -33,6 +33,7 @@ class CfgWeapons {
 		author="Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Sneaking Suit (PS1)";
+		picture = "\mgsr_dejavu\UI\gear_mgsr_solid_suit_ps1_x_ca";
 		
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_dejavu\data\mgsr_solid.paa"};
