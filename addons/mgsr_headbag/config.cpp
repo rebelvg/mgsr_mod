@@ -27,7 +27,7 @@ class CfgGlasses {
 	{
 		author="Rebel / Facel";
 		mass = 5;
-		displayname = "MGSR: Headbag";
+		displayName = "MGSR: Headbag";
 		model = "\mgsr_headbag\mgsr_headbag.p3d";
 		picture = "\mgsr_headbag\UI\gear_mgsr_headbag_x_ca";
 		identityTypes[]={};

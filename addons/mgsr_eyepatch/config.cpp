@@ -27,7 +27,7 @@ class CfgGlasses {
 	{
 		author="Rebel / Facel";
 		mass = 2;
-		displayname = "MGSR: Eyepatch";
+		displayName = "MGSR: Eyepatch";
 		model = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
 		picture = "\mgsr_eyepatch\UI\gear_mgsr_eyepatch_x_ca";
 		identityTypes[]={};

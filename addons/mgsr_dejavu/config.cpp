@@ -71,7 +71,7 @@ class CfgFaces {
 		
 		class mgsr_solid_face_ps1: WhiteHead_01 {
 			author="Rebel / Facel";
-			displayname = "MGSR: Solid Snake (PS1)";
+			displayName = "MGSR: Solid Snake (PS1)";
 			texture = "\mgsr_dejavu\data\mgsr_solid.paa";
 			materialWounded1 = "";
 			materialWounded2 = "";
