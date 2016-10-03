@@ -4,7 +4,7 @@ class CfgVehicles {
 	class C_man_1;
 
 	class mgsr_solid_snake_ps1: C_man_1 {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_solid_snake_ps1";
 		scope = 2;
 		displayName = "MGSR: Solid Snake (PS1)";
@@ -32,7 +32,7 @@ class CfgWeapons {
 	class UniformItem;
 	
 	class mgsr_solid_suit_ps1: U_C_Poloshirt_blue {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Sneaking Suit (PS1)";
 		picture = "\mgsr_dejavu\UI\gear_mgsr_solid_suit_ps1_x_ca";
@@ -70,7 +70,7 @@ class CfgFaces {
 		class WhiteHead_01;
 		
 		class mgsr_solid_face_ps1: WhiteHead_01 {
-			author="Rebel / Facel";
+			author = "Rebel / Facel";
 			displayName = "MGSR: Solid Snake (PS1)";
 			texture = "\mgsr_dejavu\data\mgsr_solid.paa";
 			materialWounded1 = "";

@@ -27,7 +27,7 @@ class CfgFaces {
 		class WhiteHead_01;
 		
 		class mgsr_nakedsnake: WhiteHead_01 {
-			author="Rebel / Facel";
+			author = "Rebel / Facel";
 			displayName = "MGSR: Naked Snake";
 			texture = "\mgsr_faces\data\mgsr_bb.paa";
 			materialWounded1 = "";
@@ -38,7 +38,7 @@ class CfgFaces {
 		};
 	
 		class mgsr_venomsnake: WhiteHead_01 {
-			author="Rebel / Facel";
+			author = "Rebel / Facel";
 			displayName = "MGSR: Venom Snake";
 			texture = "\mgsr_faces\data\mgsr_v.paa";
 			materialWounded1 = "";

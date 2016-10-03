@@ -5,7 +5,7 @@ class CfgWeapons {
 	class HeadgearItem;
 	
 	class mgsr_eyepatch: HelmetBase {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Eyepatch";
 		model = "\mgsr_eyepatch\mgsr_eyepatch.p3d";
@@ -25,7 +25,7 @@ class CfgGlasses {
 	
 	class mgsr_eyepatch_goggles: None
 	{
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		mass = 2;
 		displayName = "MGSR: Eyepatch";
 		model = "\mgsr_eyepatch\mgsr_eyepatch.p3d";

@@ -4,7 +4,7 @@ class CfgVehicles {
 	class C_man_1;
 
 	class mgsr_prisoner: C_man_1 {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner";
 		scope = 2;
 		displayName = "MGSR: Prisoner (Orange)";
@@ -77,7 +77,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_dirty: mgsr_prisoner {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_dirty";
 		displayName = "MGSR: Prisoner (Orange Dirty)";
 		uniformClass = "mgsr_robe_dirty";
@@ -88,7 +88,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_muddy: mgsr_prisoner {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_muddy";
 		displayName = "MGSR: Prisoner (Orange Muddy)";
 		uniformClass = "mgsr_robe_muddy";
@@ -99,7 +99,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_blue: mgsr_prisoner {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_blue";
 		displayName = "MGSR: Prisoner (Blue)";
 		model = "\mgsr_units\mgsr_robe_blue.p3d";
@@ -111,7 +111,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_blue_dirty: mgsr_prisoner_blue {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_blue_dirty";
 		displayName = "MGSR: Prisoner (Blue Dirty)";
 		uniformClass = "mgsr_robe_blue_dirty";
@@ -122,7 +122,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_blue_muddy: mgsr_prisoner_blue {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_blue_muddy";
 		displayName = "MGSR: Prisoner (Blue Muddy)";
 		uniformClass = "mgsr_robe_blue_muddy";
@@ -133,7 +133,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_olive: mgsr_prisoner {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_olive";
 		displayName = "MGSR: Prisoner (Olive)";
 		model = "\mgsr_units\mgsr_robe_olive.p3d";
@@ -145,7 +145,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_olive_dirty: mgsr_prisoner_olive {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_olive_dirty";
 		displayName = "MGSR: Prisoner (Olive Dirty)";
 		uniformClass = "mgsr_robe_olive_dirty";
@@ -156,7 +156,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_prisoner_olive_muddy: mgsr_prisoner_olive {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_olive_muddy";
 		displayName = "MGSR: Prisoner (Olive Muddy)";
 		uniformClass = "mgsr_robe_olive_muddy";
@@ -172,7 +172,7 @@ class CfgWeapons {
 	class UniformItem;
 	
 	class mgsr_robe: U_C_Poloshirt_blue {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Orange Robe";
 		picture = "\mgsr_units\UI\gear_mgsr_robe_x_ca";
@@ -189,7 +189,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_dirty: mgsr_robe {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		displayName = "MGSR: Orange Robe Dirty";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa"};
@@ -203,7 +203,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_muddy: mgsr_robe {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		displayName = "MGSR: Orange Robe Muddy";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa"};
@@ -217,7 +217,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_blue: mgsr_robe {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Blue Robe";
 		picture = "\mgsr_units\UI\blue\gear_mgsr_robe_x_ca";
@@ -234,7 +234,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_blue_dirty: mgsr_robe_blue {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		displayName = "MGSR: Blue Robe Dirty";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_dirty.paa"};
@@ -248,7 +248,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_blue_muddy: mgsr_robe_blue {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		displayName = "MGSR: Blue Robe Muddy";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_muddy.paa"};
@@ -262,7 +262,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_olive: mgsr_robe {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Olive Robe";
 		picture = "\mgsr_units\UI\olive\gear_mgsr_robe_x_ca";
@@ -279,7 +279,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_olive_dirty: mgsr_robe_olive {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		displayName = "MGSR: Olive Robe Dirty";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_dirty.paa"};
@@ -293,7 +293,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_robe_olive_muddy: mgsr_robe_olive {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		displayName = "MGSR: Olive Robe Muddy";
 		
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_muddy.paa"};

@@ -4,7 +4,7 @@ class CfgVehicles {
 	class Bag_Base;
 	
 	class mgsr_poncho_wet: Bag_Base {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Poncho (Wet)";
 		model = "\mgsr_poncho\mgsr_poncho.p3d";
@@ -18,7 +18,7 @@ class CfgVehicles {
 	};
 	
 	class mgsr_poncho_dry: mgsr_poncho_wet {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		displayName = "MGSR: Poncho (Dry)";
 		
 		hiddenSelectionsMaterials[] = {"\mgsr_poncho\data\mgsr_poncho_dry.rvmat"};
@@ -30,7 +30,7 @@ class CfgWeapons {
 	class VestItem;
 	
 	class mgsr_poncho_wet_vest: Vest_Camo_Base {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_poncho_wet_vest";
 		scope = 2;
 		displayName = "MGSR: Poncho (Wet)";
@@ -54,7 +54,7 @@ class CfgWeapons {
 	};
 	
 	class mgsr_poncho_dry_vest: mgsr_poncho_wet_vest {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		_generalMacro = "mgsr_poncho_dry_vest";
 		displayName = "MGSR: Poncho (Dry)";
 		

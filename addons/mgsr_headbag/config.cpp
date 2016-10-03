@@ -5,7 +5,7 @@ class CfgWeapons {
 	class HeadgearItem;
 
 	class mgsr_headbag: HelmetBase {
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Headbag";
 		model = "\mgsr_headbag\mgsr_headbag.p3d";
@@ -25,7 +25,7 @@ class CfgGlasses {
 	
 	class mgsr_headbag_goggles: None
 	{
-		author="Rebel / Facel";
+		author = "Rebel / Facel";
 		mass = 5;
 		displayName = "MGSR: Headbag";
 		model = "\mgsr_headbag\mgsr_headbag.p3d";
