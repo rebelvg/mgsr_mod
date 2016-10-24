@@ -165,6 +165,62 @@ class CfgVehicles {
 
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive_muddy.jpg";
 	};
+
+    class mgsr_sneaksuit: C_man_1 {
+		author = "Rebel / Facel";
+		_generalMacro = "mgsr_sneaksuit";
+		scope = 1;
+		displayName = "MGSR: Sneaking Suit (SV)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "mgsr_sneaksuit";
+		model = "\mgsr_units\mgsr_sneaksuit.p3d";
+		modelSides[] = {0, 1, 2, 3};
+
+		hiddenSelections[] = {"camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\sneaksuit\mgsr_svsuit_co.paa"};
+
+		headgearList[] = {};
+
+		identityTypes[] = {"LanguageENG_F", "Head_Euro", "NoGlasses"};
+
+        class Wounds
+		{
+			tex[] = {};
+			mat[] =
+			{
+				"mgsr_units\data\sneaksuit\mgsr_svsuit.rvmat",
+				"mgsr_units\data\sneaksuit\w1.rvmat",
+				"mgsr_units\data\sneaksuit\w2.rvmat",
+
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+
+		linkedItems[] = {};
+		respawnLinkedItems[] = {};
+	};
 };
 
 class CfgWeapons {
@@ -301,6 +357,23 @@ class CfgWeapons {
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_olive_muddy";
+			containerClass = "Supply20";
+			mass = 40;
+		};
+	};
+
+    class mgsr_sneaksuit: U_C_Poloshirt_blue {
+		author = "Rebel / Facel";
+		scope = 2;
+		displayName = "MGSR: Sneaking Suit (SV)";
+		picture = "\mgsr_units\UI\gear_mgsr_sneaksuit_x_ca";
+
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\mgsr_units\data\sneaksuit\mgsr_svsuit_co.paa"};
+
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "mgsr_sneaksuit";
 			containerClass = "Supply20";
 			mass = 40;
 		};
