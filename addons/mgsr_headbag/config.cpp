@@ -22,7 +22,7 @@ class CfgWeapons {
 
 class CfgGlasses {
 	class None;
-	
+
 	class mgsr_headbag_goggles: None
 	{
 		author = "Rebel / Facel";
@@ -31,12 +31,12 @@ class CfgGlasses {
 		model = "\mgsr_headbag\mgsr_headbag.p3d";
 		picture = "\mgsr_headbag\UI\gear_mgsr_headbag_x_ca";
 		identityTypes[]={};
-		
+
 		ACE_Overlay = "\mgsr_headbag\headbag_overlay.paa";
 		ACE_OverlayCracked = "\mgsr_headbag\headbag_overlayCracked.paa";
 		ACE_Resistance = 1;
 		ACE_Protection = 1;
-	};	
+	};
 };
 
 class CfgVehicles {
