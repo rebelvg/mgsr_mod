@@ -39,32 +39,13 @@ class CfgGlasses {
 	};
 };
 
-class CfgVehicles {
-	class Man;
-	class CAManBase: Man
-	{
-		class ACE_Actions
-		{
-			class ACE_Head {
-				class mgsr_putHeadBagOnAction
-				{
-					displayName = "Put Headbag On";
-					condition = "('mgsr_headbag' in items _player || 'mgsr_headbag_goggles' in items _player) && _target getVariable ['ace_captives_isSurrendering', false] || ('mgsr_headbag' in items _player || 'mgsr_headbag_goggles' in items _player) && _target getVariable ['ace_captives_isHandcuffed', false] and (alive _target)";
-					statement = "[_target, _player] spawn mgsr_headbag_fnc_putHeadbagOn";
-					showDisabled = 0;
-					icon = "mgsr_headbag\headbag_icon.paa";
-				};
-			};
-		};
-	};
-};
-
 class CfgFunctions {
 	class mgsr_headbag
 	{
-		class mgsr_headbag
+		class functions
 		{
 			file = "mgsr_headbag\functions";
+            class init {postInit = 1;};
 			class putHeadbagOn {};
 		};
 	};

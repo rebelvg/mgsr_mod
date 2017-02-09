@@ -1,7 +1,10 @@
 #include "CfgPatches.hpp"
 
 class CfgVehicles {
-	class C_man_1;
+    class Civilian_F;
+	class C_man_1: Civilian_F {
+        class EventHandlers;
+    };
 
 	class mgsr_prisoner: C_man_1 {
 		author = "Rebel / Facel";
@@ -16,7 +19,7 @@ class CfgVehicles {
 		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 
-		class EventHandlers {
+		class EventHandlers: EventHandlers {
 			class mgsr_units
 			{
 				init = "_this execVM '\mgsr_units\scripts\init.sqf'";
