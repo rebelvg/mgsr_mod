@@ -1,4 +1,4 @@
-MGSR MOD SOURCES
+MGSR MOD SOURCES by KLPQ.men
 
 For educational purposes. Do not use the content in your works without our explicit permission.
 
