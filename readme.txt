@@ -7,7 +7,7 @@ Facel - 3d models, textures.
 Shlomo - textures, icons.
 
 Threads
-https://forums.bistudio.com/topic/177253-mgsr-mod-metal-gear-solid-v-trailer-arma-3-remake/
+https://forums.bistudio.com/forums/topic/177253-mgsr-mod/
 
 Downloads
 https://github.com/rebelvg/mgsr_mod/releases
