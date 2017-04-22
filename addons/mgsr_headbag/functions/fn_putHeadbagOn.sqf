@@ -1,5 +1,4 @@
-_unit = _this select 0;
-_player = _this select 1;
+params ["_unit", "_player"];
 
 if (headgear _unit != "" || goggles _unit != "") exitWith {
 	["Unit still has some headgear or goggles on him.", 2.5, _player] spawn ace_common_fnc_displayTextStructured;
