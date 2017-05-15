@@ -1,8 +1,7 @@
-_unit = _this select 0;
+params ["_unit"];
 
 if (isServer) then {
-	{
-		_random = floor random 10;
-		_unit setObjectTextureGlobal [_x, format ["\mgsr_units\ins\%1.paa", _random]];
-	} foreach [1, 2, 3, 4, 5];
+    {
+        _unit setObjectTextureGlobal [_x, format ["\mgsr_units\ins\%1.paa", floor random 10]];
+    } forEach [1, 2, 3, 4, 5];
 };
