@@ -40,7 +40,7 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_dejavu\data\mgsr_solid.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_solid_snake_ps1";
 			containerClass = "Supply20";

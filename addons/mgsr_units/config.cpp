@@ -239,7 +239,7 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner";
 			containerClass = "Supply20";
@@ -253,7 +253,7 @@ class CfgWeapons {
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_dirty";
 			containerClass = "Supply20";
@@ -267,7 +267,7 @@ class CfgWeapons {
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_muddy";
 			containerClass = "Supply20";
@@ -284,7 +284,7 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_blue";
 			containerClass = "Supply20";
@@ -298,7 +298,7 @@ class CfgWeapons {
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_dirty.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_blue_dirty";
 			containerClass = "Supply20";
@@ -312,7 +312,7 @@ class CfgWeapons {
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_muddy.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_blue_muddy";
 			containerClass = "Supply20";
@@ -329,7 +329,7 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_olive";
 			containerClass = "Supply20";
@@ -343,7 +343,7 @@ class CfgWeapons {
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_dirty.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_olive_dirty";
 			containerClass = "Supply20";
@@ -357,7 +357,7 @@ class CfgWeapons {
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_muddy.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_olive_muddy";
 			containerClass = "Supply20";
@@ -374,7 +374,7 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\sneaksuit\mgsr_svsuit_co.paa"};
 
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem {
 			uniformModel = "-";
 			uniformClass = "mgsr_sneaksuit";
 			containerClass = "Supply20";
