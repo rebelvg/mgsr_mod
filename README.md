@@ -40,5 +40,5 @@ For educational purposes. Do not use the content in your works without our expli
 - Carrier Belt (SV).
 
 ### ACE
-- You can force headbag on other units via ACE Interaction -> Head. You must have a headbag in your inventory. Unit must be handcuffed or surrendering.
-- Eyepatch will cover half of the screen (ACE).
+- You can force headbag on other units via (ACE Interaction -> Head). You must have headbag in your inventory. Unit must be handcuffed or surrendering.
+- Eyepatch will cover half of the screen.
