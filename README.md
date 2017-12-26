@@ -20,10 +20,10 @@ For educational purposes. Do not use the content in your works without our expli
 
 ## Dependencies
 
-## Requirements
+### Requirements
 - Latest ARMA 3.
 
-## Optionals
+### Optionals
 - ACE3.
 
 ## Usage
