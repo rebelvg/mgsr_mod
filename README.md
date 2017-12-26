@@ -2,7 +2,7 @@
 
 ## Overview
 MGS and MGSV themed assets (MGS Remake Mod).
-All assets are made from scratch, only visual reference is used to create the content. No 3d shapes, forms or textures are used from any copyrighted material.
+All assets are made from scratch, only visual reference is used to create the content. No 3d shapes, forms or textures were used from any copyrighted material.
 
 For educational purposes. Do not use the content in your works without our explicit permission.
 
