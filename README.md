@@ -21,24 +21,24 @@ For educational purposes. Do not use the content in your works without our expli
 ## Dependencies
 
 ### Requirements
-- Latest ARMA 3.
+- Latest ARMA 3
 
 ### Optionals
-- ACE3.
+- ACE3
 
 ## Usage
 
 ### Content
-- Eyepatch.
-- Headbag.
-- Prisoner Uniforms (orange, blue, olive).
-- Solid Snake Sneaking Suit (PS1 era).
-- Naked and Venom Snake faces, Venom Demon face.
-- Diamond Dogs beret.
-- Poncho (as backpack and vest).
-- Sneaking Suit (SV).
-- Carrier Belt (SV).
+- Eyepatch
+- Headbag
+- Prisoner Uniforms (orange, blue, olive)
+- Solid Snake Sneaking Suit (PS1 era)
+- Naked and Venom Snake faces, Venom Demon face
+- Diamond Dogs beret
+- Poncho (as backpack and vest)
+- Sneaking Suit (SV)
+- Carrier Belt (SV)
 
 ### ACE
-- You can force headbag on other units via (ACE Interaction -> Head). You must have headbag in your inventory. Unit must be handcuffed or surrendering.
+- You can force headbag on other units via `ACE Interaction -> Head`. You must have headbag in your inventory. Unit must be handcuffed or surrendering.
 - Eyepatch will cover half of the screen.
