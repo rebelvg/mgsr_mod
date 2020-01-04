@@ -1,7 +1,7 @@
 params ["_unit", "_player"];
 
 if (headgear _unit != "" || goggles _unit != "") exitWith {
-    ["Unit still has some headgear or goggles on him.", 2.5, _player] spawn ace_common_fnc_displayTextStructured;
+    ["Unit still has some headgear or goggles on them.", 2.5, _player] spawn ace_common_fnc_displayTextStructured;
 };
 
 _player playActionNow "PutDown";

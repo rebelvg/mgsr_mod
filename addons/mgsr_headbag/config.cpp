@@ -45,7 +45,8 @@ class CfgFunctions {
 		class functions
 		{
 			file = "mgsr_headbag\functions";
-            class init {postInit = 1;};
+
+			class init {postInit = 1;};
 			class putHeadbagOn {};
 		};
 	};
