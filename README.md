@@ -1,5 +1,11 @@
 # MGSR MOD by KLPQ.men
 
+## Build
+
+```
+hemtt release
+```
+
 ## Overview
 
 MGS and MGSV themed assets (MGS Remake Mod).
