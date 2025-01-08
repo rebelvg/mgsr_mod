@@ -1,0 +1,25 @@
+name = "MGSR"
+prefix = "klpq"
+
+[properties]
+author = "Rebel"
+url = "https://github.com/rebelvg"
+
+[files]
+include = [
+    "mod.cpp",
+    "mod.paa",
+]
+exclude = [
+  "README.md",
+  "mklink.js"
+]
+
+[version]
+major = 0
+minor = 4
+patch = 9
+build = 0
+
+[hemtt.build]
+pdrive = "require"
