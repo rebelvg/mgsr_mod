@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class mgsr_units
 	{
-		units[] = {"mgsr_prisoner", "mgsr_prisoner_dirty", "mgsr_prisoner_muddy", "mgsr_prisoner_blue", "mgsr_prisoner_blue_dirty", "mgsr_prisoner_blue_muddy", "mgsr_prisoner_olive", "mgsr_prisoner_olive_dirty", "mgsr_prisoner_olive_muddy", "mgsr_sneaksuit"};
+		units[] = {"mgsr_prisoner", "mgsr_prisoner_dirty", "mgsr_prisoner_muddy", "mgsr_prisoner_blue", "mgsr_prisoner_blue_dirty", "mgsr_prisoner_blue_muddy", "mgsr_prisoner_olive", "mgsr_prisoner_olive_dirty", "mgsr_prisoner_olive_muddy"};
 		weapons[] = {"mgsr_robe", "mgsr_robe_dirty", "mgsr_robe_muddy", "mgsr_robe_blue", "mgsr_robe_blue_dirty", "mgsr_robe_blue_muddy", "mgsr_robe_olive", "mgsr_robe_olive_dirty", "mgsr_robe_olive_muddy", "mgsr_sneaksuit"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
