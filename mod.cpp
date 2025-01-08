@@ -1,5 +1,5 @@
 name = "MGSR";
-picture = "mod.paa";
+picture = "mgsr.paa";
 actionName = "Website";
 action = "https://github.com/rebelvg";
 author = "Rebel / Facel / Shlomo";

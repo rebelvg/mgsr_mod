@@ -2,7 +2,7 @@ class CfgPatches {
     class mgsr_scarf {
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1;
+        requiredVersion = 0.1;
         #include "a3_addons.hpp"
     };
 };

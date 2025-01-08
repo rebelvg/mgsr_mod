@@ -169,7 +169,7 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive_muddy.jpg";
 	};
 
-    class mgsr_sneaksuit: C_man_1 {
+	class mgsr_sneaksuit: C_man_1 {
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_sneaksuit";
 		scope = 1;
@@ -365,7 +365,7 @@ class CfgWeapons {
 		};
 	};
 
-    class mgsr_sneaksuit: U_C_Poloshirt_blue {
+	class mgsr_sneaksuit: U_C_Poloshirt_blue {
 		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Sneaking Suit (SV)";

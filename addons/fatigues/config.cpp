@@ -1,15 +1,15 @@
 class CfgPatches {
     class mgsr_fatigues {
-        units[] = {};
-        weapons[] = {};
-        requiredVersion = 1;
+        units[] = {"mgsr_fatigues_short", "mgsr_fatigues_short_desert", "mgsr_fatigues_short_dtiger", "mgsr_fatigues_short_utiger", "mgsr_fatigues_short_citru", "mgsr_fatigues_short_type3", "mgsr_fatigues_short_rhode", "mgsr_fatigues_short_dpm", "mgsr_fatigues_short_ddpm", "mgsr_fatigues_short_letni", "mgsr_fatigues_short_horsky", "mgsr_fatigues_short_ger", "mgsr_fatigues_short_lizard", "mgsr_fatigues_short_multi", "mgsr_fatigues", "mgsr_fatigues_desert", "mgsr_fatigues_jtiger", "mgsr_fatigues_dtiger", "mgsr_fatigues_utiger", "mgsr_fatigues_citru", "mgsr_fatigues_type3", "mgsr_fatigues_rhode", "mgsr_fatigues_dpm",  "mgsr_fatigues_ddpm", "mgsr_fatigues_letni", "mgsr_fatigues_horsky", "mgsr_fatigues_ger", "mgsr_fatigues_lizard", "mgsr_fatigues_multi"};
+        weapons[] = {"mgsr_fatigues_short", "mgsr_fatigues_short_desert", "mgsr_fatigues_short_wood", "mgsr_fatigues_short_wet", "mgsr_fatigues_short_black", "mgsr_fatigues_short_khaki", "mgsr_fatigues_short_jtiger", "mgsr_fatigues_short_dtiger", "mgsr_fatigues_short_utiger", "mgsr_fatigues_short_citru", "mgsr_fatigues_short_type3", "mgsr_fatigues_short_rhode", "mgsr_fatigues_short_dpm", "mgsr_fatigues_short_ddpm", "mgsr_fatigues_short_letni", "mgsr_fatigues_short_horsky", "mgsr_fatigues_short_ger", "mgsr_fatigues_short_lizard", "mgsr_fatigues_short_multi", "mgsr_fatigues", "mgsr_fatigues_wood", "mgsr_fatigues_wet","mgsr_fatigues_jtiger", "mgsr_fatigues_dtiger", "mgsr_fatigues_utiger", "mgsr_fatigues_citru", "mgsr_fatigues_type3", "mgsr_fatigues_rhode", "mgsr_fatigues_dpm", "mgsr_fatigues_ddpm", "mgsr_fatigues_letni", "mgsr_fatigues_horsky", "mgsr_fatigues_ger", "mgsr_fatigues_lizard", "mgsr_fatigues_multi"};
+        requiredVersion = 0.1;
         #include "a3_addons.hpp"
     };
 };
 
 class CfgVehicles {
     class C_man_1;
-//SHORT SLEEVE
+
     class mgsr_fatigues_short: C_man_1 {
         author = "Facel";
         scope = 1;
@@ -20,7 +20,7 @@ class CfgVehicles {
         modelSides[] = {0, 1, 2, 3};
 
         hiddenSelections[] = {"camo", "insignia", "clan"};
-	hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_01_co.paa"};
+				hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_01_co.paa"};
 
         headgearList[] = {};
 
@@ -60,6 +60,7 @@ class CfgVehicles {
         linkedItems[] = {};
         respawnLinkedItems[] = {};
     };
+
 	class mgsr_fatigues_short_desert: mgsr_fatigues_short {
 		author = "Facel";
 		scope = 1;
@@ -68,10 +69,10 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_desert";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_02_co.paa"};
-    }; 
+    };
         class mgsr_fatigues_short_wood: mgsr_fatigues_short {
 		author = "Facel";
 		scope = 1;
@@ -80,7 +81,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_wood";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_03_co.paa"};
     };
@@ -92,7 +93,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_wet";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_04_co.paa"};
     };
@@ -104,7 +105,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_black";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_05_co.paa"};
     };
@@ -116,7 +117,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_khaki";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_06_co.paa"};
     };
@@ -128,11 +129,11 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_jtiger";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_07_co.paa"};
 	};
-        class mgsr_fatigues_short_dtiger: mgsr_fatigues_short {
+	class mgsr_fatigues_short_dtiger: mgsr_fatigues_short {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Desert Tiger (Short Sleeve)";
@@ -140,7 +141,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_dtiger";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_08_co.paa"};
 	};
@@ -152,7 +153,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_utiger";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_09_co.paa"};
 	};
@@ -164,7 +165,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_citru";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_10_co.paa"};
 	};
@@ -176,7 +177,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_type3";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_11_co.paa"};
 	};
@@ -188,7 +189,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_rhode";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_12_co.paa"};
 	};
@@ -200,7 +201,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_dpm";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_13_co.paa"};
 	};
@@ -212,7 +213,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_ddpm";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_14_co.paa"};
 	};
@@ -224,7 +225,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_letni";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_15_co.paa"};
 	};
@@ -236,7 +237,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_horsky";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_16_co.paa"};
 	};
@@ -248,7 +249,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_ger";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_17_co.paa"};
 	};
@@ -260,7 +261,7 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_lizard";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_18_co.paa"};
 	};
@@ -272,13 +273,12 @@ class CfgVehicles {
 		uniformClass = "mgsr_fatigues_short_multi";
 		model = "\mgsr_fatigues\mgsr_fatigues_01.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_19_co.paa"};
 	};
 
-//LONG SLEEVE
-class mgsr_fatigues: C_man_1 {
+	class mgsr_fatigues: C_man_1 {
         author = "Facel";
         scope = 1;
         displayName = "MGSR: Fatigues Olive Drab";
@@ -288,7 +288,7 @@ class mgsr_fatigues: C_man_1 {
         modelSides[] = {0, 1, 2, 3};
 
         hiddenSelections[] = {"camo", "insignia", "clan"};
-	hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_01_co.paa"};
+				hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_01_co.paa"};
 
         headgearList[] = {};
 
@@ -336,7 +336,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_desert";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_02_co.paa"};
     };
@@ -348,7 +348,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_wood";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_03_co.paa"};
     };
@@ -360,7 +360,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_wet";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_04_co.paa"};
     };
@@ -372,7 +372,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_black";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_05_co.paa"};
     };
@@ -384,11 +384,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_khaki";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_06_co.paa"};
 	};
-        class mgsr_fatigues_jtiger: mgsr_fatigues {
+	class mgsr_fatigues_jtiger: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Jungle Tiger";
@@ -396,11 +396,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_jtiger";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_07_co.paa"};
 	};
-        class mgsr_fatigues_dtiger: mgsr_fatigues {
+	class mgsr_fatigues_dtiger: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Desert Tiger";
@@ -408,11 +408,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_dtiger";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_08_co.paa"};
 	};
-        class mgsr_fatigues_utiger: mgsr_fatigues {
+	class mgsr_fatigues_utiger: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Urban Tiger";
@@ -420,11 +420,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_utiger";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_09_co.paa"};
 	};
-        class mgsr_fatigues_citru: mgsr_fatigues {
+	class mgsr_fatigues_citru: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Citrullus";
@@ -432,11 +432,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_citru";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_10_co.paa"};
 	};
-        class mgsr_fatigues_type3: mgsr_fatigues {
+	class mgsr_fatigues_type3: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Type 3 Jap. Flecktarn";
@@ -444,11 +444,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_type3";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_11_co.paa"};
 	};
-        class mgsr_fatigues_rhode: mgsr_fatigues {
+	class mgsr_fatigues_rhode: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Rhodesian Brushstroke";
@@ -456,11 +456,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_rhode";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_12_co.paa"};
 	};
-        class mgsr_fatigues_dpm: mgsr_fatigues {
+	class mgsr_fatigues_dpm: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues DPM";
@@ -468,11 +468,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_dpm";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_13_co.paa"};
 	};
-        class mgsr_fatigues_ddpm: mgsr_fatigues {
+	class mgsr_fatigues_ddpm: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues DDPM";
@@ -480,11 +480,11 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_ddpm";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_14_co.paa"};
 	};
-        class mgsr_fatigues_letni: mgsr_fatigues {
+	class mgsr_fatigues_letni: mgsr_fatigues {
 		author = "Facel";
 		scope = 1;
 		displayName = "MGSR: Fatigues Letni";
@@ -492,7 +492,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_letni";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_15_co.paa"};
 	};
@@ -504,7 +504,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_horsky";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_16_co.paa"};
 	};
@@ -516,7 +516,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_ger";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_17_co.paa"};
 	};
@@ -528,7 +528,7 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_lizard";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_18_co.paa"};
 	};
@@ -540,18 +540,16 @@ class mgsr_fatigues: C_man_1 {
 		uniformClass = "mgsr_fatigues_multi";
 		model = "\mgsr_fatigues\mgsr_fatigues_02.p3d";
 		modelSides[] = {0, 1, 2, 3};
-		
+
 		hiddenSelections[] = {"camo", "insignia", "clan"};
 		hiddenSelectionsTextures[] = {"mgsr_fatigues\data\mgsr_fatigues_19_co.paa"};
 	};
 };
 
-
-
 class CfgWeapons {
     class U_C_Poloshirt_blue;
     class UniformItem;
-//SHORT SLEEVE
+
 	class mgsr_fatigues_short: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
@@ -603,8 +601,8 @@ class CfgWeapons {
 		containerClass = "Supply20";
 		mass = 40;
         };
-    };
-        class mgsr_fatigues_short_black: U_C_Poloshirt_blue {
+    	};
+	class mgsr_fatigues_short_black: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Black (Short Sleeve)";
@@ -617,7 +615,7 @@ class CfgWeapons {
 		mass = 40;
         };
     };
-        class mgsr_fatigues_short_khaki: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_khaki: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Steel Khaki (Short Sleeve)";
@@ -628,9 +626,9 @@ class CfgWeapons {
 		uniformClass = "mgsr_fatigues_short_khaki";
 		containerClass = "Supply20";
 		mass = 40;
+		};
 	};
-};
-        class mgsr_fatigues_short_jtiger: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_jtiger: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Jungle Tiger (Short Sleeve)";
@@ -643,7 +641,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_dtiger: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_dtiger: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Desert Tiger (Short Sleeve)";
@@ -656,7 +654,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_utiger: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_utiger: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Urban Tiger (Short Sleeve)";
@@ -669,7 +667,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_citru: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_citru: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Citrullus (Short Sleeve)";
@@ -682,7 +680,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_type3: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_type3: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Type 3 Jap. Flecktarn (Short Sleeve)";
@@ -695,7 +693,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_rhode: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_rhode: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Rhodeasian Brushstroke (Short Sleeve)";
@@ -708,7 +706,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_dpm: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_dpm: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues DPM (Short Sleeve)";
@@ -721,7 +719,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_ddpm: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_ddpm: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues DDPM (Short Sleeve)";
@@ -734,7 +732,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_letni: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_letni: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Letni (Short Sleeve)";
@@ -747,7 +745,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_horsky: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_horsky: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Horsky (Short Sleeve)";
@@ -760,7 +758,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_ger: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_ger: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues German Flecktarn (Short Sleeve)";
@@ -773,7 +771,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_lizard: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_lizard: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Lizard (Short Sleeve)";
@@ -786,7 +784,7 @@ class CfgWeapons {
 		mass = 40;
 	};
 };
-        class mgsr_fatigues_short_multi: U_C_Poloshirt_blue {
+	class mgsr_fatigues_short_multi: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Multicam (Short Sleeve)";
@@ -800,7 +798,6 @@ class CfgWeapons {
 	};
 };
 
- //LONG SLEEVE
   class mgsr_fatigues: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
@@ -879,7 +876,7 @@ class CfgWeapons {
 		mass = 40;
 		};
 	};
-    	class mgsr_fatigues_jtiger: U_C_Poloshirt_blue {
+	class mgsr_fatigues_jtiger: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Jungle Tiger";
@@ -892,7 +889,7 @@ class CfgWeapons {
 		mass = 40;
 		};
 	};
-    	class mgsr_fatigues_dtiger: U_C_Poloshirt_blue {
+	class mgsr_fatigues_dtiger: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Desert Tiger";
@@ -904,8 +901,8 @@ class CfgWeapons {
 		containerClass = "Supply20";
 		mass = 40;
 		};
-	};	
-    	class mgsr_fatigues_utiger: U_C_Poloshirt_blue {
+	};
+	class mgsr_fatigues_utiger: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Urban Tiger";
@@ -918,7 +915,7 @@ class CfgWeapons {
 		mass = 40;
 		};
 	};
-    	class mgsr_fatigues_citru: U_C_Poloshirt_blue {
+	class mgsr_fatigues_citru: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Citrullus";
@@ -1035,7 +1032,7 @@ class CfgWeapons {
 		mass = 40;
 		};
 	};
-		class mgsr_fatigues_multi: U_C_Poloshirt_blue {
+	class mgsr_fatigues_multi: U_C_Poloshirt_blue {
 		author = "Facel";
 		scope = 2;
 		displayName = "MGSR: Fatigues Multicam";
