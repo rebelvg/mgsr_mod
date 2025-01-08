@@ -1,11 +1,4 @@
-class CfgPatches {
-    class mgsr_fatigues {
-        units[] = {"mgsr_fatigues_short", "mgsr_fatigues_short_desert", "mgsr_fatigues_short_dtiger", "mgsr_fatigues_short_utiger", "mgsr_fatigues_short_citru", "mgsr_fatigues_short_type3", "mgsr_fatigues_short_rhode", "mgsr_fatigues_short_dpm", "mgsr_fatigues_short_ddpm", "mgsr_fatigues_short_letni", "mgsr_fatigues_short_horsky", "mgsr_fatigues_short_ger", "mgsr_fatigues_short_lizard", "mgsr_fatigues_short_multi", "mgsr_fatigues", "mgsr_fatigues_desert", "mgsr_fatigues_jtiger", "mgsr_fatigues_dtiger", "mgsr_fatigues_utiger", "mgsr_fatigues_citru", "mgsr_fatigues_type3", "mgsr_fatigues_rhode", "mgsr_fatigues_dpm",  "mgsr_fatigues_ddpm", "mgsr_fatigues_letni", "mgsr_fatigues_horsky", "mgsr_fatigues_ger", "mgsr_fatigues_lizard", "mgsr_fatigues_multi"};
-        weapons[] = {"mgsr_fatigues_short", "mgsr_fatigues_short_desert", "mgsr_fatigues_short_wood", "mgsr_fatigues_short_wet", "mgsr_fatigues_short_black", "mgsr_fatigues_short_khaki", "mgsr_fatigues_short_jtiger", "mgsr_fatigues_short_dtiger", "mgsr_fatigues_short_utiger", "mgsr_fatigues_short_citru", "mgsr_fatigues_short_type3", "mgsr_fatigues_short_rhode", "mgsr_fatigues_short_dpm", "mgsr_fatigues_short_ddpm", "mgsr_fatigues_short_letni", "mgsr_fatigues_short_horsky", "mgsr_fatigues_short_ger", "mgsr_fatigues_short_lizard", "mgsr_fatigues_short_multi", "mgsr_fatigues", "mgsr_fatigues_wood", "mgsr_fatigues_wet","mgsr_fatigues_jtiger", "mgsr_fatigues_dtiger", "mgsr_fatigues_utiger", "mgsr_fatigues_citru", "mgsr_fatigues_type3", "mgsr_fatigues_rhode", "mgsr_fatigues_dpm", "mgsr_fatigues_ddpm", "mgsr_fatigues_letni", "mgsr_fatigues_horsky", "mgsr_fatigues_ger", "mgsr_fatigues_lizard", "mgsr_fatigues_multi"};
-        requiredVersion = 0.1;
-        #include "a3_addons.hpp"
-    };
-};
+#include "CfgPatches.hpp"
 
 class CfgVehicles {
     class C_man_1;

@@ -1,12 +1,4 @@
-class CfgPatches {
-    class mgsr_vest {
-        units[] = {};
-        weapons[] = {"mgsr_vest", "mgsr_vest_black",  "mgsr_vest_khaki", "mgsr_carrier_belt"};
-        requiredVersion = 0.1;
-        #include "a3_addons.hpp"
-    };
-    class mgsr_carrier_belt: mgsr_vest {};
-};
+#include "CfgPatches.hpp"
 
 class CfgWeapons {
     class Vest_Camo_Base;

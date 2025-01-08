@@ -1,11 +1,4 @@
-class CfgPatches {
-    class mgsr_scarf {
-        units[] = {};
-        weapons[] = {};
-        requiredVersion = 0.1;
-        #include "a3_addons.hpp"
-    };
-};
+#include "CfgPatches.hpp"
 
 class CfgGlasses {
     class None;

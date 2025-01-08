@@ -1,9 +1,9 @@
 class CfgPatches {
-	class mgsr_poncho {
-		units[] = {"mgsr_poncho_wet", "mgsr_poncho_dry"};
-		weapons[] = {"mgsr_poncho_wet_vest", "mgsr_poncho_dry_vest"};
-		requiredVersion = 0.1;
-		requiredAddons[] = {
+    class mgsr_scarf {
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = 0.1;
+        requiredAddons[] = {
 			"a3_3den",
 			"a3_3den_language",
 			"a3_air_f",
@@ -861,7 +861,7 @@ class CfgPatches {
 			"3den",
 			"map_vr"
 		};
-		author = "KLPQ";
+    author = "KLPQ";
 		authors[] = {"KLPQ"};
-	};
+    };
 };
