@@ -11,8 +11,7 @@ include = [
     "mod.paa",
 ]
 exclude = [
-  "README.md",
-  "mklink.js"
+  "README.md"
 ]
 
 [version]
