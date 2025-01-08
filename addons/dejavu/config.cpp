@@ -1,9 +1,11 @@
 #include "CfgPatches.hpp"
 
-class CfgVehicles {
+class CfgVehicles
+{
 	class C_man_1;
 
-	class mgsr_solid_snake_ps1: C_man_1 {
+	class mgsr_solid_snake_ps1 : C_man_1
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_solid_snake_ps1";
 		scope = 2;
@@ -27,11 +29,13 @@ class CfgVehicles {
 	};
 };
 
-class CfgWeapons {
+class CfgWeapons
+{
 	class U_C_Poloshirt_blue;
 	class UniformItem;
 
-	class mgsr_solid_suit_ps1: U_C_Poloshirt_blue {
+	class mgsr_solid_suit_ps1 : U_C_Poloshirt_blue
+	{
 		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Sneaking Suit (PS1)";
@@ -40,7 +44,8 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_dejavu\data\mgsr_solid.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_solid_snake_ps1";
 			containerClass = "Supply20";
@@ -49,27 +54,31 @@ class CfgWeapons {
 	};
 };
 
-class CfgHeads {
+class CfgHeads
+{
 	class NATOHead_A3;
 
-	class mgsr_solid_head_ps1: NATOHead_A3 {
+	class mgsr_solid_head_ps1 : NATOHead_A3
+	{
 		model = "\mgsr_dejavu\mgsr_solid_head.p3d";
 		selectionHeadWound = "injury_head";
 		selectionPersonality = "personality";
 	};
 };
 
-class CfgFaces {
+class CfgFaces
+{
 	class Default
 	{
 		class Custom;
 	};
 
-	class Man_A3: Default
+	class Man_A3 : Default
 	{
 		class WhiteHead_01;
 
-		class mgsr_solid_face_ps1: WhiteHead_01 {
+		class mgsr_solid_face_ps1 : WhiteHead_01
+		{
 			author = "Rebel / Facel";
 			displayName = "MGSR: Solid Snake (PS1)";
 			texture = "\mgsr_dejavu\data\mgsr_solid.paa";

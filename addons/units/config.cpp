@@ -1,12 +1,15 @@
 #include "CfgPatches.hpp"
 
-class CfgVehicles {
-    class Civilian_F;
-	class C_man_1: Civilian_F {
-        class EventHandlers;
-    };
+class CfgVehicles
+{
+	class Civilian_F;
+	class C_man_1 : Civilian_F
+	{
+		class EventHandlers;
+	};
 
-	class mgsr_prisoner: C_man_1 {
+	class mgsr_prisoner : C_man_1
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner";
 		scope = 2;
@@ -19,7 +22,8 @@ class CfgVehicles {
 		hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa", "\mgsr_units\ins\9.paa", "\mgsr_units\ins\4.paa", "\mgsr_units\ins\7.paa", "\mgsr_units\ins\0.paa", "\mgsr_units\ins\2.paa"};
 
-		class EventHandlers: EventHandlers {
+		class EventHandlers : EventHandlers
+		{
 			class mgsr_units
 			{
 				init = "_this execVM '\mgsr_units\scripts\init.sqf'";
@@ -34,43 +38,42 @@ class CfgVehicles {
 		{
 			tex[] = {};
 			mat[] =
-			{
-				"mgsr_units\data\mgsr_robe.rvmat",
-				"mgsr_units\data\w1_mgsr_robe.rvmat",
-				"mgsr_units\data\w2_mgsr_robe.rvmat",
+					{
+							"mgsr_units\data\mgsr_robe.rvmat",
+							"mgsr_units\data\w1_mgsr_robe.rvmat",
+							"mgsr_units\data\w2_mgsr_robe.rvmat",
 
-				"mgsr_units\data\blue\mgsr_robe.rvmat",
-				"mgsr_units\data\blue\w1_mgsr_robe.rvmat",
-				"mgsr_units\data\blue\w2_mgsr_robe.rvmat",
+							"mgsr_units\data\blue\mgsr_robe.rvmat",
+							"mgsr_units\data\blue\w1_mgsr_robe.rvmat",
+							"mgsr_units\data\blue\w2_mgsr_robe.rvmat",
 
-				"mgsr_units\data\olive\mgsr_robe.rvmat",
-				"mgsr_units\data\olive\w1_mgsr_robe.rvmat",
-				"mgsr_units\data\olive\w2_mgsr_robe.rvmat",
+							"mgsr_units\data\olive\mgsr_robe.rvmat",
+							"mgsr_units\data\olive\w1_mgsr_robe.rvmat",
+							"mgsr_units\data\olive\w2_mgsr_robe.rvmat",
 
-				"A3\Characters_F\Common\Data\basicbody.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+							"A3\Characters_F\Common\Data\basicbody.rvmat",
+							"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+							"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
-			};
+							"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
 		};
 
 		linkedItems[] = {};
@@ -79,7 +82,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner.jpg";
 	};
 
-	class mgsr_prisoner_dirty: mgsr_prisoner {
+	class mgsr_prisoner_dirty : mgsr_prisoner
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_dirty";
 		displayName = "MGSR: Prisoner (Orange Dirty)";
@@ -90,7 +94,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_dirty.jpg";
 	};
 
-	class mgsr_prisoner_muddy: mgsr_prisoner {
+	class mgsr_prisoner_muddy : mgsr_prisoner
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_muddy";
 		displayName = "MGSR: Prisoner (Orange Muddy)";
@@ -101,7 +106,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_muddy.jpg";
 	};
 
-	class mgsr_prisoner_blue: mgsr_prisoner {
+	class mgsr_prisoner_blue : mgsr_prisoner
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_blue";
 		displayName = "MGSR: Prisoner (Blue)";
@@ -113,7 +119,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_blue.jpg";
 	};
 
-	class mgsr_prisoner_blue_dirty: mgsr_prisoner_blue {
+	class mgsr_prisoner_blue_dirty : mgsr_prisoner_blue
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_blue_dirty";
 		displayName = "MGSR: Prisoner (Blue Dirty)";
@@ -124,7 +131,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_blue_dirty.jpg";
 	};
 
-	class mgsr_prisoner_blue_muddy: mgsr_prisoner_blue {
+	class mgsr_prisoner_blue_muddy : mgsr_prisoner_blue
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_blue_muddy";
 		displayName = "MGSR: Prisoner (Blue Muddy)";
@@ -135,7 +143,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_blue_muddy.jpg";
 	};
 
-	class mgsr_prisoner_olive: mgsr_prisoner {
+	class mgsr_prisoner_olive : mgsr_prisoner
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_olive";
 		displayName = "MGSR: Prisoner (Olive)";
@@ -147,7 +156,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive.jpg";
 	};
 
-	class mgsr_prisoner_olive_dirty: mgsr_prisoner_olive {
+	class mgsr_prisoner_olive_dirty : mgsr_prisoner_olive
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_olive_dirty";
 		displayName = "MGSR: Prisoner (Olive Dirty)";
@@ -158,7 +168,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive_dirty.jpg";
 	};
 
-	class mgsr_prisoner_olive_muddy: mgsr_prisoner_olive {
+	class mgsr_prisoner_olive_muddy : mgsr_prisoner_olive
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_prisoner_olive_muddy";
 		displayName = "MGSR: Prisoner (Olive Muddy)";
@@ -169,7 +180,8 @@ class CfgVehicles {
 		editorPreview = "\mgsr_units\eden\mgsr_prisoner_olive_muddy.jpg";
 	};
 
-	class mgsr_sneaksuit: C_man_1 {
+	class mgsr_sneaksuit : C_man_1
+	{
 		author = "Rebel / Facel";
 		_generalMacro = "mgsr_sneaksuit";
 		scope = 1;
@@ -186,39 +198,38 @@ class CfgVehicles {
 
 		identityTypes[] = {"LanguageENG_F", "Head_Euro", "NoGlasses"};
 
-        class Wounds
+		class Wounds
 		{
 			tex[] = {};
 			mat[] =
-			{
-				"mgsr_units\data\sneaksuit\mgsr_svsuit.rvmat",
-				"mgsr_units\data\sneaksuit\w1.rvmat",
-				"mgsr_units\data\sneaksuit\w2.rvmat",
+					{
+							"mgsr_units\data\sneaksuit\mgsr_svsuit.rvmat",
+							"mgsr_units\data\sneaksuit\w1.rvmat",
+							"mgsr_units\data\sneaksuit\w2.rvmat",
 
-				"A3\Characters_F\Common\Data\basicbody.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+							"A3\Characters_F\Common\Data\basicbody.rvmat",
+							"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+							"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
 
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
-			};
+							"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+							"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+							"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
 		};
 
 		linkedItems[] = {};
@@ -226,11 +237,13 @@ class CfgVehicles {
 	};
 };
 
-class CfgWeapons {
+class CfgWeapons
+{
 	class U_C_Poloshirt_blue;
 	class UniformItem;
 
-	class mgsr_robe: U_C_Poloshirt_blue {
+	class mgsr_robe : U_C_Poloshirt_blue
+	{
 		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Orange Robe";
@@ -239,7 +252,8 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner";
 			containerClass = "Supply20";
@@ -247,13 +261,15 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_dirty: mgsr_robe {
+	class mgsr_robe_dirty : mgsr_robe
+	{
 		author = "Rebel / Facel";
 		displayName = "MGSR: Orange Robe Dirty";
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_dirty.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_dirty";
 			containerClass = "Supply20";
@@ -261,13 +277,15 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_muddy: mgsr_robe {
+	class mgsr_robe_muddy : mgsr_robe
+	{
 		author = "Rebel / Facel";
 		displayName = "MGSR: Orange Robe Muddy";
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\mgsr_robe_muddy.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_muddy";
 			containerClass = "Supply20";
@@ -275,7 +293,8 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_blue: mgsr_robe {
+	class mgsr_robe_blue : mgsr_robe
+	{
 		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Blue Robe";
@@ -284,7 +303,8 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_blue";
 			containerClass = "Supply20";
@@ -292,13 +312,15 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_blue_dirty: mgsr_robe_blue {
+	class mgsr_robe_blue_dirty : mgsr_robe_blue
+	{
 		author = "Rebel / Facel";
 		displayName = "MGSR: Blue Robe Dirty";
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_dirty.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_blue_dirty";
 			containerClass = "Supply20";
@@ -306,13 +328,15 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_blue_muddy: mgsr_robe_blue {
+	class mgsr_robe_blue_muddy : mgsr_robe_blue
+	{
 		author = "Rebel / Facel";
 		displayName = "MGSR: Blue Robe Muddy";
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\blue\mgsr_robe_muddy.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_blue_muddy";
 			containerClass = "Supply20";
@@ -320,7 +344,8 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_olive: mgsr_robe {
+	class mgsr_robe_olive : mgsr_robe
+	{
 		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Olive Robe";
@@ -329,7 +354,8 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_olive";
 			containerClass = "Supply20";
@@ -337,13 +363,15 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_olive_dirty: mgsr_robe_olive {
+	class mgsr_robe_olive_dirty : mgsr_robe_olive
+	{
 		author = "Rebel / Facel";
 		displayName = "MGSR: Olive Robe Dirty";
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_dirty.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_olive_dirty";
 			containerClass = "Supply20";
@@ -351,13 +379,15 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_robe_olive_muddy: mgsr_robe_olive {
+	class mgsr_robe_olive_muddy : mgsr_robe_olive
+	{
 		author = "Rebel / Facel";
 		displayName = "MGSR: Olive Robe Muddy";
 
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\olive\mgsr_robe_muddy.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_prisoner_olive_muddy";
 			containerClass = "Supply20";
@@ -365,7 +395,8 @@ class CfgWeapons {
 		};
 	};
 
-	class mgsr_sneaksuit: U_C_Poloshirt_blue {
+	class mgsr_sneaksuit : U_C_Poloshirt_blue
+	{
 		author = "Rebel / Facel";
 		scope = 2;
 		displayName = "MGSR: Sneaking Suit (SV)";
@@ -374,7 +405,8 @@ class CfgWeapons {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\mgsr_units\data\sneaksuit\mgsr_svsuit_co.paa"};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo : UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "mgsr_sneaksuit";
 			containerClass = "Supply20";
